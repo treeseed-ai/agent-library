@@ -1,15 +1,10 @@
 ---
-id: objective:agent-core
-title: TreeSeed Agent Core Objective
-description: TreeSeed Agent should run Treeseed capacity providers, including provider API, provider manager, provider runner, worker runtime, AgentKernel execution, mode scheduling, provider-local capacity enforcement, Docker assets, and runtime tests.
-date: 2026-06-22
-summary: TreeSeed Agent exists to run Treeseed capacity providers, including provider API, provider manager, provider runner, worker runtime, AgentKernel execution, mode scheduling, provider-local capacity enforcement, Docker assets, and runtime tests while preserving its package boundary.
-status: live
-timeHorizon: long-term
-motivation: Package-local workdays need a stable north star from the README so humans and agents can plan, execute, review, and report work without drifting across package ownership boundaries.
-primaryContributor: agent-steward
-relatedQuestions: []
-relatedBooks: []
+schemaVersion: treeseed.objective/v1
+id: agent-core
+projectId: agent
+title: "TreeSeed Agent Core Objective"
+outcome: "TreeSeed Agent exists to run Treeseed capacity providers, including provider API, provider manager, provider runner, worker runtime, AgentKernel execution, mode scheduling, provider-local capacity enforcement, Docker assets, and runtime tests while preserving its package boundary."
+status: active
 ---
 
 TreeSeed Agent exists to run Treeseed capacity providers, including provider API, provider manager, provider runner, worker runtime, AgentKernel execution, mode scheduling, provider-local capacity enforcement, Docker assets, and runtime tests.
