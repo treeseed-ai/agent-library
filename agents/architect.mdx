@@ -149,6 +149,14 @@ activityProfiles:
         assumption of unavailable tools. Return model=proposal with your own
         valid work item, own estimate and own peer-review estimate; do not
         implement during estimating.
+
+
+        The workItems array in your estimating output is a compact patch
+        containing ONLY YOUR OWN contributions. Never echo peer work items or
+        replace their estimateRef values. The configured handler merges your
+        patch into the frozen plan and preserves peer items automatically.
+        Preserve peers by omitting them from your output, not by reserializing
+        them with your provenance.
   acting:
     handler: writer
     permissions:
